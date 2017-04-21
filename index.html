@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Interactive video</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <!-- jQuery -->
+
+
+<style>
+
+    .videocontainer{
+    position: relative;
+    }
+
+    #endcredits{
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+
+    }
+
+
+    #endcreditsbutton{
+    position: relative;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0.6);
+    }
+
+
+    </style>
+
+</head>
+
+<body >
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+        <div class="videocontainer">
+            <video width="100%" height="100%" autoplay controls id="radissonsvideo">
+               <source src="video/radisson.mp4">
+
+               Videoen kan ikke vises!
+            </video>
+            <div id="annotation"></div>
+
+            <div id="endcredits">
+            <div id="endcreditsbutton">
+                <a href="http://wwwpolitiken.dk" class="btn btn-primary btn-success btn-lg"> Klik på mig!</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+</div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/popcorn-complete.js"></script>
+
+    <script>
+
+    var videoid = document.querySelector("#radissonsvideo");
+    var popcornvideo = Popcorn(videoid);
+
+    // vis CTA når video er slut
+
+    videoid.addEventListener("ended", function(e){
+    $("#endcredits").show();
+    })
+
+    popcornvideo.footnote({
+    start:2,
+    end:4,
+        text:"Popcorn styrer vildt!",
+        target:annotation
+    })
+
+
+
+
+
+    popcornvideo.play();
+
+    </script>
+
+</body>
+
+</html>
