@@ -105,6 +105,9 @@ margin-right: -15px;}
 .boks4 {
 margin-bottom: 25px;
 background-color: #323232;
+padding-top: 5px;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .boks5 {
@@ -202,6 +205,12 @@ background-image: url(picture/star-01.svg);
 width: 115px;
 height: 20px;
 background-image: url(picture/list-01.svg);
+}
+
+.tablet{
+width: 200px;
+height: 160px;
+background-image: url(picture/tablet.jpg);
 }
 
 
