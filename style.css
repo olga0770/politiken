@@ -17,7 +17,7 @@ width:100%;
 
 
 .logo {
-    width: 300px;
+    width: 310px;
     height: 100px;
     background-image: url(picture/PolitikenLogo_Gradient-01.svg);
     background-size: auto;
@@ -26,23 +26,48 @@ width:100%;
 
     top: 0px;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -155px;
     z-index: 1;
 }
 
-/*
-.navbar{
-opacity: 0.5;
-}
-*/
+
+.applestore {
+    width: 150px;
+    height: 50px;
+    background-image: url(picture/appleSrore-01.svg);
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: 0px;
+    left: 50%;
+    margin-left: -150px;
+    }
+
+.googleplay {
+    width: 150px;
+    height: 50px;
+    background-image: url(picture/googlePlay-01.svg);
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -50px;
+    left: 50%;
+    margin-left: 0px;
+    }
+
+
+
+
+
+
+
 
 
 
 .videocontainer{
-    top: 100px;
     position: relative;
-margin-left: -15px;
-margin-right: -15px;}
+    margin-left: -15px;
+    margin-right: -15px;}
 
 
 #endcredits{
@@ -53,16 +78,20 @@ margin-right: -15px;}
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
+
 
 }
 
 
 #endcreditsbutton{
+/*
     position: absolute;
-    top: 50%;
+    top: 40%;
+*/
     width: 100%;
     text-align: center;
+    margin-top: 15px;
 }
 
 #annotation{
@@ -91,15 +120,8 @@ margin-right: -15px;}
 
 
 .boks3 {
-    width: 310px;
-    height: 75px;
-    top: 130 px;
     border: 1px solid #ffffff;
-    left: 50%;
-    position: absolute;
-    margin-left: -155px;
-    margin-top: 20px;
-}
+    }
 
 
 .boks4 {
@@ -115,6 +137,10 @@ padding-right: 30px;
     margin-bottom: 100px;
     }
 
+h3{
+color: #ffffff;
+text-align: center;
+}
 
 h4{
 color: #ffffff;
@@ -124,8 +150,7 @@ text-align: center;
 h6{
 color: #ffffff;
 text-align: center;
-margin-top: 90px;
-margin-bottom: -70px;
+
 }
 
 h5{
@@ -135,22 +160,29 @@ margin-left: 10px;
 
 
 
-.socialmedia{
-margin-top: 25px;
-margin-bottom: 30px;
-background: url('') no-repeat center top;
-background-size: auto;
-height: 35px;
 
-}
 
 .facebook{
     background-image: url(picture/iconFacebook-inverse-01.svg);
-    margin-top: 70px;
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -10px;
+    left: 50%;
+    margin-left: -50px;
 }
 .instagram{
     background-image: url(picture/iconInstagram-inverse-01.svg);
-    margin-top: 70px;
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -60px;
+    left: 50%;
+    margin-left: 0px;
 }
 
 .advantage1{
