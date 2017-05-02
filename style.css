@@ -3,7 +3,7 @@
 
 
 body {
-background-color: #000000;
+background-color: #ffffff;
 }
 
 
@@ -24,7 +24,7 @@ width:100%;
     position: absolute;
     background-repeat: no-repeat center center;
 
-    top: 0px;
+    margin-top: 40px;
     left: 50%;
     margin-left: -155px;
     z-index: 1;
@@ -104,11 +104,11 @@ width:100%;
 
 
 .boks1 {
-    height: 1px;
-    background-color:#ffffff;
-   top: 0;
+    height: 2px;
+    background-color:#cccccc;
+
     z-index: 1;
-    opacity: 0.2;
+
 }
 
 
@@ -125,11 +125,8 @@ width:100%;
 
 
 .boks4 {
-margin-bottom: 25px;
-background-color: #323232;
+/*background-color: #cccccc;*/
 padding-top: 5px;
-padding-left: 30px;
-padding-right: 30px;
 }
 
 .boks5 {
@@ -137,31 +134,53 @@ padding-right: 30px;
     margin-bottom: 100px;
     }
 
+
+
+
+.boks6 {
+    background-size: auto;
+    position: absolute;
+    top: 200px;
+    }
+
+
+
+
+.buybottom {
+position: absolute;
+}
+
+
 h3{
 color: #ffffff;
 text-align: center;
 }
 
 h4{
-color: #ffffff;
 text-align: center;
 }
+
+
 
 h6{
-color: #ffffff;
 text-align: center;
-
-}
-
-h5{
-color: #ffffff;
-margin-left: 10px;
 }
 
 h2{
-color: #ffffff;
+text-align: center;
+}
+
+h5{
 margin-left: 10px;
 }
+
+
+
+p{
+
+}
+
+
 
 
 
@@ -188,6 +207,7 @@ margin-left: 10px;
     top: -60px;
     left: 50%;
     margin-left: 0px;
+    margin-bottom: -50px;
 }
 
 .advantage1{
@@ -229,7 +249,23 @@ background-image: url(picture/PolitikenLogoP-01.svg);
 .profile{
 width: 50px;
 height: 50px;
-background-image: url(picture/profilePicture-01.svg);
+background-image: url(picture/profile1.png);
+border: 1px solid #000000;
+}
+
+
+.profile2{
+width: 50px;
+height: 50px;
+background-image: url(picture/profile2.png);
+border: 1px solid #000000;
+}
+
+.profile3{
+width: 50px;
+height: 50px;
+background-image: url(picture/profile3.png);
+border: 1px solid #000000;
 }
 
 .star{
@@ -237,6 +273,13 @@ width: 115px;
 height: 20px;
 background-image: url(picture/star-01.svg);
 }
+
+.star2{
+width: 115px;
+height: 20px;
+background-image: url(picture/star3-01.svg);
+}
+
 
 .list{
 width: 115px;
@@ -249,5 +292,49 @@ width: 200px;
 height: 160px;
 background-image: url(picture/tablet.jpg);
 }
+
+
+
+.hs-responsive-embed-youtube {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+padding-top: 25px;
+}
+
+
+.hs-responsive-embed-youtube iframe {
+position: absolute;
+width: 100%!important;
+height: 100%!important;
+}
+
+
+.background {
+background-color: #cccccc;
+height: 550px;
+}
+
+.tabtel {
+background-image: url(picture/tabletPlusTel.png);
+background-repeat: no-repeat center center;
+background-repeat: repeat-y;
+height: 400px;
+margin-bottom: 75px;
+margin-top: 75px;
+}
+
+
+.fon {
+background-image: url(picture/fon.png);
+height: 550px;
+background-repeat: repeat-y;
+}
+
+
+.advantagebox {
+text-align: center;
+}
+
+
 
 
