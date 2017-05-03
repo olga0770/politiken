@@ -53,6 +53,7 @@ width:100%;
     top: -50px;
     left: 50%;
     margin-left: 0px;
+    margin-bottom: -25px;
     }
 
 
@@ -106,8 +107,7 @@ width:100%;
 .boks1 {
     height: 2px;
     background-color:#cccccc;
-
-    z-index: 1;
+z-index: 1;
 
 }
 
@@ -140,8 +140,14 @@ padding-top: 5px;
 .boks6 {
     background-size: auto;
     position: absolute;
-    top: 200px;
+    top: 220px;
     }
+
+
+.boks7 {
+    height: 1px;
+    background-color:#757575;
+}
 
 
 
@@ -231,7 +237,7 @@ background-image: url(picture/fordel3-01.svg);
 .advantage4{
 width: 50px;
 height: 50px;
-background-image: url(picture/fordel4-01.svg);
+background-image: url(picture/fordel3-01.svg);
 }
 
 .advantage5{
@@ -250,7 +256,7 @@ background-image: url(picture/PolitikenLogoP-01.svg);
 width: 50px;
 height: 50px;
 background-image: url(picture/profile1.png);
-border: 1px solid #000000;
+
 }
 
 
@@ -258,14 +264,14 @@ border: 1px solid #000000;
 width: 50px;
 height: 50px;
 background-image: url(picture/profile2.png);
-border: 1px solid #000000;
+
 }
 
 .profile3{
 width: 50px;
 height: 50px;
 background-image: url(picture/profile3.png);
-border: 1px solid #000000;
+
 }
 
 .star{
@@ -288,9 +294,9 @@ background-image: url(picture/list-01.svg);
 }
 
 .tablet{
-width: 200px;
-height: 160px;
-background-image: url(picture/tablet.jpg);
+width: 300px;
+height: 200px;
+background-image: url(picture/iPad.jpg);
 }
 
 
@@ -311,7 +317,7 @@ height: 100%!important;
 
 .background {
 background-color: #cccccc;
-height: 550px;
+height: 450px;
 }
 
 .tabtel {
@@ -319,21 +325,48 @@ background-image: url(picture/tabletPlusTel.png);
 background-repeat: no-repeat center center;
 background-repeat: repeat-y;
 height: 400px;
-margin-bottom: 75px;
-margin-top: 75px;
+margin-top: 30px;
 }
 
 
 .fon {
 background-image: url(picture/fon.png);
-height: 550px;
+height: 450px;
 background-repeat: repeat-y;
 }
 
 
 .advantagebox {
 text-align: center;
+background-color: #cccccc;
+padding-bottom: 15px;
 }
+
+.reader {
+background-color: #cccccc;
+padding: 15px;
+}
+
+
+
+.farve6{
+text-align: center;
+margin-bottom: 15px;
+}
+
+.farveind{
+/*    background-color: #cccccc;*/
+    border: 1px solid #757575;
+    padding: 15px;
+
+}
+
+.farvekasse{
+    height: 180px;
+}
+
+
+
 
 
 
